@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/typescript-build": "^3.0.2",
     "nuxt": "^3.9.0",
     "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",
