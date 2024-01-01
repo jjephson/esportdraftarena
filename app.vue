@@ -1,5 +1,9 @@
 <template>
-  <div>
-    <h1>Welcome to the homepage</h1>
-  </div>
+	<div>
+		hej
+	</div>
 </template>
+
+  <script setup>
+
+  </script>

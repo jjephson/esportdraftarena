@@ -3,10 +3,21 @@
 import { type NuxtConfig } from '@nuxt/types/config'
 
 const config: NuxtConfig = {
-  // Your Nuxt.js configuration...
-  buildModules: ['@nuxt/typescript-build'],
+  ssr: true,
+  css: ['/assets/global.css'],
+  buildModules: [
+    '@nuxt/typescript-build',
+    '@nuxtjs/eslint-module',
+  ],
   devtools: {
     enabled: true
+  },
+  modules: [
+  ],
+  plugins: [
+  ],
+  typescript: {
+    strict: true
   },
 }
 
