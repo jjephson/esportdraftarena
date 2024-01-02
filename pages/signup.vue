@@ -1,6 +1,6 @@
 <template>
 	<NuxtLayout :name="layout">
-		<section class="login">
+		<section class="signup">
 			<section class="content-area">
 				<article>
 					<h1>Draft your esport team</h1>
@@ -11,17 +11,25 @@
 				<article>
 					<form @submit.prevent="" role="form">
 						<NuxtPicture src="logo.GIF" alt="Esport Draft Arena" class="picture" />
-						<p>Please sign in with your username and password.</p>
+						<p>Sign up with your email and username.</p>
 						<div>
-							<label for="username" class="visuallyhidden">Username or email:</label>
-							<input type="text" id="username" placeholder="Username or email" required>
+							<label for="username" class="visuallyhidden">Username:</label>
+							<input type="text" id="username" placeholder="Username" required>
+						</div>						
+						<div>
+							<label for="email" class="visuallyhidden">Email:</label>
+							<input type="text" id="email" placeholder="Email" required>
 						</div>
 						<div>
 							<label for="password" class="visuallyhidden">Password:</label>
 							<input type="password" id="password" placeholder="Password" required>
 						</div>
-						<button type="submit">Login</button>
-						<p class="signup-link">Not a member? <NuxtLink to="/signup">Sign up here!</NuxtLink></p>
+						<div>
+							<label for="password2" class="visuallyhidden">Repeat password:</label>
+							<input type="password2" id="password2" placeholder="Repeat password" required>
+						</div>
+						<button type="submit">Sign up</button>
+						<p class="signup-link">Already a member? <NuxtLink to="/login">Login in here!</NuxtLink></p>
 					</form>
 				</article>
 			</section>
@@ -35,7 +43,7 @@
 </script>
 
 <style scoped>
-	.login {
+	.signup {
 		display: flex;
 		flex-wrap: wrap;
 		min-height: 100vh;
@@ -64,7 +72,8 @@
 		flex: 1 0 50%;
 		justify-content: center;
 		color: #000;
-		background: #000 url(../assets/images/login.jpg) 50%;
+		background: #000 url(../assets/images/register.jpg) 50% no-repeat;
+		background-size: cover;
 	}
 	.login-area h1 {
 		font-size: 4rem;
@@ -104,12 +113,12 @@
 	.login-area form {
 		text-align: center;
 	}
-	.signup-link {
-		margin: 15px 0 0;
-	}
 	.picture {
 		display: inline-block;
 		margin: 0 0 20px;
+	}
+	.signup-link {
+		margin: 15px 0 0;
 	}
 	
 </style>
