@@ -1,7 +1,6 @@
 <template>
 	<NuxtLayout :name="layout">
 		default layout
-		<NuxtPage />
 	</NuxtLayout>
 </template>
 

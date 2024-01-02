@@ -13,12 +13,18 @@ const config: NuxtConfig = {
     enabled: true
   },
   modules: [
+    '@nuxt/image',
   ],
   plugins: [
   ],
   typescript: {
     strict: true
   },
+  image: {
+    dir: 'assets/images',
+    quality: 80,
+    format: ['webp'],
+  }
 }
 
 export default config
