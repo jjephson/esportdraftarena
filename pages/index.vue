@@ -1,9 +1,9 @@
 <template>
-	<NuxtLayout :name="layout">
-		default layout
-	</NuxtLayout>
+	default layout
 </template>
 
 <script setup>
-    const layout = 'default'
+	definePageMeta({
+		layout: 'default'
+	})
 </script>

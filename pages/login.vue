@@ -1,37 +1,36 @@
 <template>
-	<NuxtLayout :name="layout">
-		<section class="login">
-			<section class="content-area">
-				<article>
-					<h1>Draft your esport team</h1>
-					<p>Assemble your esports team, organize practice sessions, compete in leagues, and stand a chance to win fantastic prizes.</p>
-				</article>
-			</section>
-			<section class="login-area">
-				<article>
-					<form @submit.prevent="" role="form">
-						<NuxtPicture src="logo.GIF" alt="Esport Draft Arena" class="picture" />
-						<p>Please sign in with your username and password.</p>
-						<div>
-							<label for="username" class="visuallyhidden">Username or email:</label>
-							<input type="text" id="username" placeholder="Username or email" required>
-						</div>
-						<div>
-							<label for="password" class="visuallyhidden">Password:</label>
-							<input type="password" id="password" placeholder="Password" required>
-						</div>
-						<button type="submit">Login</button>
-						<p class="signup-link">Not a member? <NuxtLink to="/signup">Sign up here!</NuxtLink></p>
-					</form>
-				</article>
-			</section>
-			
+	<section class="login">
+		<section class="content-area">
+			<article>
+				<h1>Draft your esport team</h1>
+				<p>Assemble your esports team, organize practice sessions, compete in leagues, and stand a chance to win fantastic prizes.</p>
+			</article>
 		</section>
-	</NuxtLayout>
+		<section class="login-area">
+			<article>
+				<form @submit.prevent="" role="form">
+					<NuxtPicture src="logo.GIF" alt="Esport Draft Arena" class="picture" />
+					<p>Please sign in with your username and password.</p>
+					<div>
+						<label for="username" class="visuallyhidden">Username or email:</label>
+						<input type="text" id="username" placeholder="Username or email" required>
+					</div>
+					<div>
+						<label for="password" class="visuallyhidden">Password:</label>
+						<input type="password" id="password" placeholder="Password" required>
+					</div>
+					<button type="submit">Login</button>
+					<p class="signup-link">Not a member? <NuxtLink to="/signup">Sign up here!</NuxtLink></p>
+				</form>
+			</article>
+		</section>
+	</section>
 </template>
   
-<script setup lang="ts">
-	const layout = 'login';
+<script setup>
+	definePageMeta({
+		layout: 'login'
+	})
 </script>
 
 <style scoped>
