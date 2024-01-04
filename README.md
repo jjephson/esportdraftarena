@@ -101,13 +101,19 @@ Page structure
     - Reset Password page
     - Ranking page
     - News page
-    - Game date page
+    - Calendar page
+    - Watch list page
+    - Team log page
+    - Players page
+    - Player profile page
     - Draft page
         * Overview
         * Draft your team box - first time
         * Draft results page
     - Info pages
         * Prizes
+        * Overview
+        * Rules
     - League page
         * League members box
             * Standings

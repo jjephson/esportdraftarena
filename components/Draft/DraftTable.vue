@@ -1,5 +1,6 @@
 <template>
 	<section>
+		<h2>Draft table</h2>
 		<button @click="generateDraftNewTable">Generate New Table Data</button>
 		<table class="draft-table">
 			<thead>

@@ -1,6 +1,5 @@
 <template>
 	<section>
-		<h1>Draft page</h1>
 		<UserPlayerTable v-if="activeTeam"/>
 		<DraftTable v-else />
 	</section>

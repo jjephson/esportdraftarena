@@ -1,14 +1,16 @@
 <template>
 	<section class="page">
 		<Header />
-		<section class="content">
-			<aside>
-				<MainNav />
-			</aside>
-			<main class="content">
-				<slot />
-			</main>
-		</section>
+		<LayoutWrapper class="wrapper">
+			<section class="content">
+				<aside>
+					<MainNav />
+				</aside>
+				<main class="content">
+					<slot />
+				</main>
+			</section>
+		</LayoutWrapper>
 		<Footer />
 	</section>
 </template>
@@ -24,13 +26,17 @@
 	}
 	.content {
 		display: flex;
-		justify-content: center;
 	}
 	aside {
-		flex-basis: 200px;
+		flex-basis: 20%;
+		min-width: 238px;
 		border-right: 1px solid #BDAEAB;
 	}
 	main {
-		flex-basis: 70%;
+		padding: 40px 0 0 40px;
+		flex-basis: 79%;
+	}
+	.wrapper {
+		margin: 0 auto;
 	}
 </style>
