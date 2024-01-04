@@ -2,6 +2,7 @@
 	<section>
 		<DraftTable />
 		<Ranking />
+		<GameDates />
 	</section>
 </template>
 
