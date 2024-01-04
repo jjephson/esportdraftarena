@@ -1,5 +1,8 @@
 <template>
-	<DraftTable />
+	<section>
+		<DraftTable />
+		<Ranking />
+	</section>
 </template>
 
 <script setup>
