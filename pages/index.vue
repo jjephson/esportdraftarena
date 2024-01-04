@@ -1,5 +1,5 @@
 <template>
-	default layout
+	<DraftTable />
 </template>
 
 <script setup>
