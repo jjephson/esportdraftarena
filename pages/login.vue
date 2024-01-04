@@ -103,6 +103,9 @@
 	.login-area form {
 		text-align: center;
 	}
+	.login-area a:visited {
+		color: rgba(37, 31, 31, 1);
+	}
 	.signup-link {
 		margin: 15px 0 0;
 	}

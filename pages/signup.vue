@@ -137,6 +137,10 @@
 	.login-area form {
 		text-align: center;
 	}
+	.login-area a:link,
+	.login-area a:visited {
+		color: rgba(37, 31, 31, 1);
+	}
 	.picture {
 		display: inline-block;
 		margin: 0 0 20px;

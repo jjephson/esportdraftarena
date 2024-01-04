@@ -12,11 +12,15 @@
 		display: flex;
 		justify-content: center;
 		padding: 2rem 0;
-		background: rgba(242, 249, 255);
-		border-top: 2px solid rgba(134, 198, 255);
+		color: rgba(244, 238, 236, 1);
+		background: rgba(87, 43, 0, 1);
 	}
 	.header {
 		justify-content: space-between;
 		align-items: center;
+	}
+	a:link,
+	a:visited {
+		color: rgba(244, 238, 236, 1);
 	}
 </style>
