@@ -72,4 +72,53 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Page structure 
+    - Index page
+        * Ranking box
+            * Heading
+            * Show top 5-10 in a table
+            * Link to full ranking
+        * Game dates box
+            * Heading
+            * Show the important dates
+            * Link to full schedual (if needed)
+        * News box
+            * Heading
+            * Paragraph
+            * Show latest 10 news in a list
+            * Link the news archive
+        * Follow box
+    - Profile page
+        * Profile picture
+        * Name
+        * Nickname
+        * Country
+        * Team table
+        * Contact link
+        * Add friend link
+    - Register page
+    - Login page
+    - Reset Password page
+    - Ranking page
+    - News page
+    - Game date page
+    - Draft page
+        * Overview
+        * Draft your team box - first time
+        * Draft results page
+    - Info pages
+        * Prizes
+    - League page
+        * League members box
+            * Standings
+            * Schedule
+        * Matchup box
+            * Heading
+            * Week number
+            * Status (In progress)
+            * Table with the games and stats
+        * Trade box
+            * Show all trades in the league
+            * Wavers
+            * View all link
+    

@@ -17,6 +17,7 @@ const config: NuxtConfig = {
 	},
 	modules: [
 		'@nuxt/image',
+		'nuxt-icon',
 	],
 	plugins: [
 	],

@@ -12,6 +12,5 @@
 		font-weight: bold;
 		font-size: 2.5rem;
 		margin: 0;
-		color: rgba(244, 238, 236, 1);
 	}
 </style>

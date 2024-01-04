@@ -2,7 +2,12 @@
 	<section class="page">
 		<Header />
 		<section class="content">
-			<slot />
+			<aside>
+				<MainNav />
+			</aside>
+			<main class="content">
+				<slot />
+			</main>
 		</section>
 		<Footer />
 	</section>
@@ -20,6 +25,12 @@
 	.content {
 		display: flex;
 		justify-content: center;
-		padding: 40px 0;
+	}
+	aside {
+		flex-basis: 200px;
+		border-right: 1px solid #BDAEAB;
+	}
+	main {
+		flex-basis: 70%;
 	}
 </style>

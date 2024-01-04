@@ -1,5 +1,5 @@
 <template>
-	<section>
+	<section class="page">
 		<DraftTable />
 		<Ranking />
 		<GameDates />
@@ -11,3 +11,8 @@
 		layout: 'default'
 	})
 </script>
+
+<style scoped>
+	
+
+</style>

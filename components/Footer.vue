@@ -13,7 +13,6 @@
 		margin: auto 0 0;
 		height: 50px;
 		padding: 20px 0;
-		color: rgba(244, 238, 236, 1);
-		background: rgba(87, 43, 0, 1);
+		border-top: 1px solid #BDAEAB;
 	}
 </style>
