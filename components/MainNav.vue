@@ -2,6 +2,7 @@
 <template>
 	<nav>
 		<NuxtLink to="/">Home</NuxtLink>
+		<NuxtLink to="/draft">Draft</NuxtLink>
 		<NuxtLink to="/login">Login</NuxtLink>
 		<NuxtLink to="/signup">Sign up</NuxtLink>
 	</nav>

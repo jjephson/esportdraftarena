@@ -1,6 +1,6 @@
 <template>
 	<section>
-		<button @click="generateDraftNewTable">Generate New Table Data</button>
+		<h2>My drafted team</h2>
 		<table class="draft-table">
 			<thead>
 				<tr>
@@ -35,16 +35,6 @@
 		['5', 'Mia', 'PhantomPirate', '30', '$500', '62', '54', '45', '9'],
 		['6', 'William', 'BlitzBounty', '12', '$100000', '86', '49', '100', '73'],
 	]);
-
-	const generateDraftNewTable = async () => {
-		// Your logic to generate new table data based on tableHeaders
-		// For example, you can create random data or fetch data from an API
-		// Here, I'm just creating a sample row with empty values
-		for (let i = 0; i < 5; i++) {
-			const newRow = Array(tableData.value[0].length).fill('New Value');
-			tableData.value.push(newRow);
-		}
-	};
 </script>
 
 <style scoped>
