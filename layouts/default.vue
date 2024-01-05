@@ -33,7 +33,7 @@
 		border-right: 1px solid #BDAEAB;
 	}
 	main {
-		padding: 40px 0 0 40px;
+		padding: 40px 0 40px 40px;
 		flex-basis: 79%;
 	}
 	.wrapper {
