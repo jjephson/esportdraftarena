@@ -37,7 +37,7 @@
 		color: rgba(17, 5, 10, 1);
 	}
 	.ranking-table thead tr {
-		background-color: rgba(211, 161, 57, 1);
+		background-color: #BDAEAB;
 		text-align: left;
 		font-weight: bold;
 	}
@@ -46,11 +46,11 @@
 		padding: 12px 15px;
 	}
 	.ranking-table tbody tr {
-		background-color: rgba(251, 240, 202, 1);
+		background-color:#F4EEEC;
 	}
 
 	.ranking-table tbody tr:nth-of-type(even) {
-		background-color: rgba(247, 223, 151, 1)
+		background-color: #E9DEDA;
 	}
 	.ranking-table .number {
 		text-align: center;

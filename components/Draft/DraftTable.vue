@@ -54,11 +54,10 @@
 		margin: 25px 0;
 		font-size: 0.9em;
 		min-width: 400px;
-		box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 		color: rgba(17, 5, 10, 1);
 	}
 	.draft-table thead tr {
-		background-color: rgba(211, 161, 57, 1);
+		background-color: #BDAEAB;
 		text-align: left;
 		font-weight: bold;
 	}
@@ -67,11 +66,11 @@
 		padding: 12px 15px;
 	}
 	.draft-table tbody tr {
-		background-color: rgba(251, 240, 202, 1);
+		background-color:#F4EEEC;
 	}
 
 	.draft-table tbody tr:nth-of-type(even) {
-		background-color: rgba(247, 223, 151, 1)
+		background-color: #E9DEDA;
 	}
 	.draft-table .number {
 		text-align: center;
