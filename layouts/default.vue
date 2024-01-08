@@ -26,6 +26,7 @@
 	}
 	.content {
 		display: flex;
+		width: 100%;
 	}
 	aside {
 		flex-basis: 20%;
